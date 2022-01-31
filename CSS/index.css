@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+.back {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../IMATGES/jardin2.jpg') no-repeat top center #efeff1;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    left: 25;
+    top: 35;
+}
+
+.imatgelogo {
+    width: 124px;
+    height: 60px;
+}
+
+
+/*Menú*/
+
+div.nav {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+
+/*Caracteristiques elements del menú*/
+
+div.nav a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 35px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    transition-duration: 1.5s;
+}
+
+div.nav a.menu {
+    color: black;
+}
+
+div.nav a.menu:hover {
+    transition-duration: 1s;
+    letter-spacing: 3px;
+    transform: scale(1.1);
+}
+
+div.nav a.white {
+    color: rgb(129, 129, 129);
+}
+
+div.nav a.white:hover {
+    transition-duration: 1s;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/* Index */
+div.indexdiv1 {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 0px;
+    width: 100%;
+    height: 2019px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: lightgrey;
+}
+
+p.textdiv1 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    color: white;
+}
+
+div.index_proser {
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    width: 100%;
+    height: 400px;
+}
+
+div.indexdiv1_1 {
+    position: relative;
+    text-align: center;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 78%;
+    padding-top: 90px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+div.indexdiv1_2 {
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 78%;
+    padding-top: 90px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: lightgrey;
+}
+
+p.textdiv1_3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.botoproser {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 6px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border: 0.2px solid #ffffff;
+}
+
+.botoproser:hover {
+    background-color: #ffffff;
+    color: black;
+    transition-duration: 1s;
+}
+
+div.indexdiv2 {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to top right, rgba(238, 255, 0, 0.322), rgba(0, 255, 13, 0.192));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+div.indexdiv2:hover {
+    transform: scale(0.98);
+}
+
+div.indexdiv2_1 {
+    position: relative;
+    text-align: center;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+div.indexdiv2_2 {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+p.textdiv2_1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    transition-duration: 0.4s;
+    color: black;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-top: 150px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    transition-duration: 0.4s;
+    color: rgb(0, 0, 0);
+}
+
+.aprenmes {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 20%;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.aprenmes:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+div.indexdiv4 {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+
+p.textdiv4 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.9em;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+}
+
+div.indexdiv5 {
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+img.logodiv5 {
+    transition-duration: 1s;
+    float: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 100px;
+}
+
+img.logodiv5:hover {
+    transform: scale(1.3);
+}
+
+div.indexdiv6 {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 0px;
+    width: 100%;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.85)
+}
+
+div.indexdiv6contacte {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 0px;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.85)
+}
+
+p.textdivfinal {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.4em;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: white
+}
+
+div.titol1 {
+    position: relative;
+    text-align: center;
+    margin-top: 110px;
+    width: 100%;
+    height: 400px;
+    transition-duration: 2s;
+}
+
+div.titol {
+    position: relative;
+    text-align: center;
+    margin-top: 110px;
+    width: 100%;
+    height: 200px;
+    transition-duration: 2s;
+}
+
+/* Efectos pagina principal*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 6em;
+    margin-top: 250px;
+    letter-spacing: 1px;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+
+h1:hover {
+    letter-spacing: 20px;
+}
+
+#h1index {
+    margin-top: 150px;
+    color: black;
+}
+
+/*Productes*/
+
+div.productesdiv {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 950px;
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0.452));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+div.productesdiv2 {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 950px;
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0.452));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+/*Tablas*/
+
+table, th, td {
+    margin-top: -100px;
+    text-align: center; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10;
+}
+
+th, td {
+    background-color: #bdc47d;
+}
+.center {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Serveis*/
+
+div.serveisdiv {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to top right, rgba(6, 70, 20, 0.267), rgba(145, 255, 0, 0.452));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+div.serveisdiv2 {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 850px;
+    background-image: linear-gradient(to top right, rgba(6, 70, 20, 0.267), rgba(145, 255, 0, 0.452));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+div.serveisdiv3 {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(to top right, rgba(6, 70, 20, 0.267), rgba(145, 255, 0, 0.452));
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+div.serveisdiv2_1 {
+    position: relative;
+    text-align: center;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+div.serveisdiv2_2 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    margin-top: 105px;
+    width: 50%;
+    height: 100%;
+}
+div.serveisdiv2_3 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    margin-top: 105px;
+    width: 100%;
+    height: 100%;
+}
+
+h7 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    transition-duration: 0.4s;
+    color: rgb(0, 0, 0);
+}
+
+/*Grid Cesped*/
+#grid {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#grid img {
+    float: center;
+    border: 2px solid black;
+    width: 45%;
+    margin: 1.66%;
+}
+
+#grid img:hover{
+    opacity: .7;
+}
+
+/*Contacte*/
+#contacte {
+    height: 1000px;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 6em;
+    padding-top: 25px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+
+div.contacte_1 {
+    position: absolute;
+    text-align: center;
+    float: left;
+    margin-left: 400px;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+div.contacte_2 {
+    position: absolute;
+    text-align: center;
+    float: left;
+    margin-left: 400px;
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+}
+
+/*Contacto con selectores avanzados*/
+
+
+input[type=text] {  
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875em;
+    width: 80%;
+    height: 40px;
+    padding: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: rgba(255, 255, 255, 0.075);
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=text]:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+textarea {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875em;
+    width: 80%;
+    height: 200px;
+    padding: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: rgba(255, 255, 255, 0.075);
+    color: #000000;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+input[type=submit] {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875em;
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    background: rgba(255, 255, 255, 0.075);
+    color: #000000;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+p.pinput {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 1px;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+
+.nosaltresdiv1 {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.nosaltresdiv2 {
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 0px;
+    width: 100%;
+    height: 1440px;
+    background-color: rgba(255, 255, 255, 0.76)
+}
+
+img.nosaltresimg1 {
+    width: 75%;
+}
